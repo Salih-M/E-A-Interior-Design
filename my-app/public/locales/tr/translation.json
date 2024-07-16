@@ -7,5 +7,9 @@
   "heroSection": {
     "title": "E | A iç tasarıma hoş geldiniz",
     "subtitle": "Hayat alanınızı yaratalım ve stil sahibi yapalım"
+  },
+  "projectSection": {
+    "location": "Konum",
+    "price": "Fiyat"
   }
 }

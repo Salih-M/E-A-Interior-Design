@@ -1,10 +1,11 @@
+import HeroSection from "../components/HomePage/HeroSection";
+import ProjectSection from "../components/HomePage/ProjectSection";
 
-import HeroSection from "../components/HomePage/HeroSection"
-
-export default function Home () {
-    return (
-        <div>
-            <HeroSection />
-        </div>
-    )
+export default function Home() {
+  return (
+    <div>
+      <HeroSection />
+      <ProjectSection />
+    </div>
+  );
 }

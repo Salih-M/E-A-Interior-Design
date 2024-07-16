@@ -7,5 +7,9 @@
   "heroSection": {
     "title": "Welcome to the E | A interior design",
     "subtitle": "Let's create and style your living space"
+  },
+  "projectSection": {
+    "location": "Location",
+    "price": "Price"
   }
 }
