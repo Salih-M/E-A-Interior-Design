@@ -11,5 +11,22 @@
   "projectSection": {
     "location": "Konum",
     "price": "Fiyat"
-  }
+  },
+  "steperSection": [
+    {
+      "number": 1,
+      "title": "Proje Analizi",
+      "description": "Mimarlık firmamızda tasarım süreci, müşteri gereksinimlerinin, saha koşullarının ve yerel düzenlemelerin ayrıntılı bir analiziyle başlar."
+    },
+    {
+      "number": 2,
+      "title": "Konsept Tasarımı",
+      "description": "Çeşitli fikir ve çözümleri araştırarak müşterilerimizin tasarım konsepti olanaklarını görselleştirmesini sağlayan ilk tasarım konseptlerini oluşturuyoruz."
+    },
+    {
+      "number": 3,
+      "title": "Gelişmiş 3D modelleme",
+      "description": "Gelişmiş yazılım ve 3D modelleme kullanarak, mimarlık firmamız müşterilerin önerilen tasarımı tam olarak anlamalarını sağlayan detaylı görselleştirmeler oluşturur."
+    }
+  ]
 }

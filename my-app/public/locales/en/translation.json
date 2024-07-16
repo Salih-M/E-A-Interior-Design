@@ -11,5 +11,22 @@
   "projectSection": {
     "location": "Location",
     "price": "Price"
-  }
+  },
+  "steperSection": [
+    {
+      "number": 1,
+      "title": "Project Analysis",
+      "description": "In our architecture company, the design process begins with a thorough analysis of the client’s requirements, site conditions, and local regulations to lay the foundation."
+    },
+    {
+      "number": 2,
+      "title": "Concept Design",
+      "description": "We create initial design concepts exploring various ideas and solutions, allowing our clients to visualize design concept possibilities."
+    },
+    {
+      "number": 3,
+      "title": "Advanced 3D modeling",
+      "description": "Through the use of advanced software and 3D modeling, our architecture company creates detailed visualizations, allowing clients to fully comprehend the proposed design."
+    }
+  ]
 }
