@@ -20,6 +20,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = [
+  { item: "Home", link: "/" },
   { item: "Minimalist", link: "/minimalistic" },
   { item: "Nordic", link: "/nordic" },
   { item: "Modern", link: "/modern" },

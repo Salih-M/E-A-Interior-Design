@@ -28,5 +28,37 @@
       "title": "Advanced 3D modeling",
       "description": "Through the use of advanced software and 3D modeling, our architecture company creates detailed visualizations, allowing clients to fully comprehend the proposed design."
     }
-  ]
+  ],
+  "steperDetail": [
+    {
+      "title": "Project Analysis",
+      "description": "In our interior design projects, we begin with a thorough analysis of the client's needs, space conditions, and functional requirements. This stage involves assessing the existing layout, identifying key areas for improvement, and developing a strategic plan to create a harmonious and aesthetically pleasing environment. Our goal is to ensure that the design aligns with the client's vision while maximizing the potential of the space."
+    },
+    {
+      "title": "Concept Design",
+      "description": "Concept design in interior designing is the foundational stage where ideas and visions are translated into initial design concepts. This phase involves brainstorming, sketching, and creating mood boards to explore various styles, color schemes, and layouts. The goal is to develop a cohesive design concept that aligns with the client's preferences and functional requirements, providing a clear direction for the subsequent stages of the project. Through concept design, designers can visualize and communicate the overall look and feel of the space, ensuring that the final design meets the client's expectations and enhances the aesthetic and practical aspects of the environment."
+    },
+    {
+      "title": "Advanced 3D Modeling",
+      "description": "Advanced 3D modeling in interior design is a cutting-edge technique that allows designers to create detailed and realistic digital representations of spaces. This technology enables the visualization of intricate design elements, accurate spatial layouts, and material finishes before the actual implementation. By using advanced 3D modeling software, designers can experiment with different configurations, identify potential issues, and make informed decisions, ensuring the final design is both aesthetically pleasing and functional. This process not only enhances client communication and satisfaction but also streamlines the design and construction phases, reducing the likelihood of costly errors and revisions."
+    }
+  ],
+  "minimalisticPage": {
+    "title": "Minimalistic Interior Designs",
+    "description": "Discover the beauty of minimalism with these stunning interior designs. Each space is thoughtfully crafted to provide a serene and uncluttered environment.",
+    "subtitle": "Simplicity",
+    "subDescription": "The minimalist house design is simple, efficient, and orderly. It aims to achieve clarity and simplicity in the design and makes the areas and spaces uncomplicated and functional. Simple forms and shapes,large and open floors, simple storage areas. Emphasis on views and daylight are the defining characteristics of minimalist designs.The simple home designs without any complications, extra furniture, and accessories are the keys to this particular interior style. And most of all, Minimalism is a way of living beyond the interior design.It is understanding what you need in your life and using it only.It starts from within and the interior only an aspect of this philosophy."
+  },
+  "nordicPage": {
+    "title": "Nordic Interior Designs",
+    "description": "Experience the elegance of Nordic interior design with these beautifully curated spaces. Each design emphasizes simplicity, functionality, and a connection to nature.",
+    "subtitle": "Scandinavian Aesthetics",
+    "subDescription": "Nordic house design is characterized by its minimalist approach, clean lines, and natural materials. It focuses on creating warm and inviting spaces with a touch of sophistication. Key elements include neutral color palettes, cozy textiles, and an abundance of natural light. The design prioritizes functionality and comfort, making every piece of furniture and decor purposeful. The use of wood, wool, and other natural materials brings a sense of the outdoors inside, creating a harmonious balance between the interior and the surrounding environment. Ultimately, Nordic design is about creating a serene and welcoming atmosphere that promotes well-being and simplicity in everyday life."
+  },
+  "modernPage": {
+    "title": "Modern Interior Designs",
+    "description": "Explore the sleek and stylish world of modern interior design. These contemporary spaces are designed to reflect sophistication, innovation, and a sense of refined elegance.",
+    "subtitle": "Contemporary Elegance",
+    "subDescription": "Modern house design embraces clean lines, open spaces, and a minimalistic approach to decor. It often features a neutral color palette accented with bold, vibrant colors or statement pieces. Materials like glass, metal, and concrete are commonly used to create a sleek and polished look. Modern design focuses on the functionality of space, ensuring each element serves a purpose while maintaining aesthetic appeal. Large windows and open floor plans allow for an abundance of natural light, making the spaces feel airy and expansive. The emphasis is on simplicity, uncluttered spaces, and the integration of technology, creating a harmonious blend of comfort and cutting-edge style. Ultimately, modern interior design is about creating a sophisticated and functional living environment that resonates with contemporary lifestyles."
+  }
 }

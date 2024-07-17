@@ -28,5 +28,31 @@
       "title": "Gelişmiş 3D modelleme",
       "description": "Gelişmiş yazılım ve 3D modelleme kullanarak, mimarlık firmamız müşterilerin önerilen tasarımı tam olarak anlamalarını sağlayan detaylı görselleştirmeler oluşturur."
     }
-  ]
+  ],
+  "steperDetail": [
+    {
+      "title": "Proje Analizi",
+      "description": "İç mekan tasarımı projelerimizde, müşterinin ihtiyaçlarını, mekan koşullarını ve işlevsel gereksinimlerini kapsamlı bir şekilde analiz ederek başlıyoruz. Bu aşama, mevcut düzenin değerlendirilmesi, iyileştirilmesi gereken ana alanların belirlenmesi ve uyumlu ve estetik açıdan hoş bir ortam yaratmak için stratejik bir plan geliştirilmesini içerir. Amacımız, tasarımın müşterinin vizyonuyla uyumlu olmasını sağlarken, mekanın potansiyelini en üst düzeye çıkarmaktır."
+    },
+    {
+      "title": "Konsept Tasarımı",
+      "description": "İç mekan tasarımında konsept tasarımı, fikirlerin ve vizyonların başlangıç ​​tasarım konseptlerine dönüştürüldüğü temel aşamadır. Bu aşama, çeşitli stilleri, renk şemalarını ve düzenleri keşfetmek için beyin fırtınası yapmayı, eskizler çizmeyi ve mood board'lar oluşturmayı içerir. Amaç, müşterinin tercihleri ​​ve işlevsel gereksinimleriyle uyumlu, sonraki aşamalara net bir yön sağlayan bütünsel bir tasarım konsepti geliştirmektir. Konsept tasarımı sayesinde, tasarımcılar alanın genel görünümünü ve hissini görselleştirebilir ve iletişim kurabilir, böylece nihai tasarımın müşterinin beklentilerini karşılamasını ve çevrenin estetik ve pratik yönlerini geliştirmesini sağlar."
+    },
+    {
+      "title": "Gelişmiş 3D Modelleme",
+      "description": "İç mekan tasarımında gelişmiş 3D modelleme, tasarımcıların mekanların ayrıntılı ve gerçekçi dijital temsillerini oluşturmasına olanak tanıyan ileri teknoloji bir tekniktir. Bu teknoloji, karmaşık tasarım unsurlarının, doğru mekansal düzenlerin ve malzeme bitişlerinin gerçek uygulamadan önce görselleştirilmesini sağlar. Gelişmiş 3D modelleme yazılımı kullanarak, tasarımcılar farklı yapılandırmalarla deney yapabilir, potansiyel sorunları belirleyebilir ve bilinçli kararlar alabilir, böylece nihai tasarımın hem estetik olarak hoş hem de işlevsel olmasını sağlar. Bu süreç, müşteri iletişimini ve memnuniyetini artırmanın yanı sıra, tasarım ve inşaat aşamalarını da kolaylaştırarak maliyetli hataların ve revizyonların olasılığını azaltır."
+    }
+  ],
+  "minimalisticPage": {
+    "title": "Minimalist İç Mekan Tasarımları",
+    "description": "Bu çarpıcı iç mekan tasarımlarıyla minimalizmin güzelliğini keşfedin. Her alan, sakin ve dağınıklıktan uzak bir ortam sağlamak için özenle tasarlanmıştır.",
+    "subtitle": "Sadelik",
+    "subDescription": "Minimalist ev tasarımı basit, verimli ve düzenlidir. Tasarımda netlik ve sadelik elde etmeyi amaçlar ve alanları ve mekanları basit ve işlevsel hale getirir. Basit formlar ve şekiller, geniş ve açık zeminler, basit depolama alanları. Görünüm ve doğal ışık vurgusu, minimalist tasarımların tanımlayıcı özellikleridir. Herhangi bir karmaşıklık, ekstra mobilya ve aksesuar olmadan basit ev tasarımları, bu belirli iç mekan stilinin anahtarlarıdır. Ve en önemlisi, Minimalizm, iç mekan tasarımının ötesinde bir yaşam biçimidir. Hayatınızda neye ihtiyacınız olduğunu anlamak ve sadece onu kullanmaktır. İçten başlar ve iç mekan bu felsefenin sadece bir yönüdür."
+  },
+  "nordicPage": {
+    "title": "Nordik İç Mekan Tasarımları",
+    "description": "Bu özenle seçilmiş alanlarla Nordik iç mekan tasarımının zarafetini deneyimleyin. Her tasarım sadeliği, işlevselliği ve doğayla bağlantıyı vurgular.",
+    "subtitle": "İskandinav Estetiği",
+    "subDescription": "Nordik ev tasarımı, minimalist yaklaşımı, temiz hatları ve doğal malzemeleri ile karakterizedir. Sıcak ve davetkar alanlar yaratmaya odaklanır ve bir dokunuş sofistike ekler. Ana unsurlar arasında nötr renk paletleri, rahat tekstiller ve bol miktarda doğal ışık bulunur. Tasarım, işlevsellik ve konforu önceliklendirir, her mobilya parçası ve dekorun amacına hizmet etmesini sağlar. Ahşap, yün ve diğer doğal malzemelerin kullanımı, dış mekanın içeriye taşınmasını sağlar ve iç mekan ile çevredeki ortam arasında uyumlu bir denge oluşturur. Sonuç olarak, Nordik tasarım, günlük yaşamda huzur ve basitliği teşvik eden sakin ve hoş bir atmosfer yaratmakla ilgilidir."
+  }
 }
