@@ -24,6 +24,7 @@ const navItems = [
   { item: "Minimalist", link: "/minimalistic" },
   { item: "Nordic", link: "/nordic" },
   { item: "Modern", link: "/modern" },
+  { item: "Contact", link: "/contact" },
 ];
 
 function DrawerAppBar(props) {

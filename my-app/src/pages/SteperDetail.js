@@ -47,7 +47,7 @@ const SteperDetail = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 p-24 gap-8">
+      <div className="grid grid-cols-2 p-24 gap-8 h-screen">
         <div className="w-48 flex gap-4">
           {detail.images.map((src, index) => (
             <img
@@ -55,6 +55,7 @@ const SteperDetail = () => {
               className="shadow-2xl border-2 border-black"
               src={src}
               alt={`Detail ${index + 1}`}
+              loading="lazy"
             />
           ))}
         </div>

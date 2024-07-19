@@ -15,8 +15,8 @@ const DesignPage = ({
   textColor
 }) => {
   return (
-    <div className={`flex ${backgroundColor} ${textColor}`}>
-      <Box sx={{ width: "50%", height: 753, padding: "140px" }}>
+    <div className={`flex h-screen ${backgroundColor} ${textColor}`}>
+      <Box sx={{ width: "50%", padding: "140px" }}>
         <ImageList variant="masonry" cols={3} gap={8}>
           {images.map((item, index) => (
             <ImageListItem key={index}>

@@ -12,6 +12,7 @@ import SteperDetail from "./pages/SteperDetail";
 import MinimalisticPage from "./pages/MinimalisticPage"
 import NordicPage from "./pages/NordicPage";
 import ModernPage from "./pages/ModernPage";
+import ContactPage from "./pages/ContactPage"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="/minimalistic" element={<MinimalisticPage />} />
       <Route path="/nordic" element={<NordicPage />} />
       <Route path="/modern" element={<ModernPage />} />
+      <Route path="/contact" element={<ContactPage />} />
     </Route>
   )
 );

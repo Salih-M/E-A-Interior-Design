@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography, Button, Container } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import ImgHero from "../../images/women-interior-design.jpg";
 
 const HeroSection = () => {
@@ -24,17 +25,19 @@ const HeroSection = () => {
         <Typography variant="h5" component="p" gutterBottom>
           {t("heroSection.subtitle")}
         </Typography>
-        <Button
-          variant="contained"
-          sx={{
-            bgcolor: "black",
-            color: "white",
-            fontSize: "16px",
-            "&:hover": { bgcolor: "darkgray" },
-          }}
-        >
-          {t("global.getStarted")}
-        </Button>
+        <Link to="/contact">
+          <Button
+            variant="contained"
+            sx={{
+              bgcolor: "black",
+              color: "white",
+              fontSize: "16px",
+              "&:hover": { bgcolor: "darkgray" },
+            }}
+          >
+            {t("global.getStarted")}
+          </Button>
+        </Link>
       </Container>
       <Box
         component="img"
