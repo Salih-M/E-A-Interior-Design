@@ -2,7 +2,8 @@
   "global": {
     "getStarted": "Başlayın",
     "learnMore": "Daha fazla gör",
-    "close": "Kapat"
+    "close": "Kapat",
+    "submit": "Gönder"
   },
   "heroSection": {
     "title": "E | A iç tasarıma hoş geldiniz",
@@ -54,5 +55,12 @@
     "description": "Bu özenle seçilmiş alanlarla Nordik iç mekan tasarımının zarafetini deneyimleyin. Her tasarım sadeliği, işlevselliği ve doğayla bağlantıyı vurgular.",
     "subtitle": "İskandinav Estetiği",
     "subDescription": "Nordik ev tasarımı, minimalist yaklaşımı, temiz hatları ve doğal malzemeleri ile karakterizedir. Sıcak ve davetkar alanlar yaratmaya odaklanır ve bir dokunuş sofistike ekler. Ana unsurlar arasında nötr renk paletleri, rahat tekstiller ve bol miktarda doğal ışık bulunur. Tasarım, işlevsellik ve konforu önceliklendirir, her mobilya parçası ve dekorun amacına hizmet etmesini sağlar. Ahşap, yün ve diğer doğal malzemelerin kullanımı, dış mekanın içeriye taşınmasını sağlar ve iç mekan ile çevredeki ortam arasında uyumlu bir denge oluşturur. Sonuç olarak, Nordik tasarım, günlük yaşamda huzur ve basitliği teşvik eden sakin ve hoş bir atmosfer yaratmakla ilgilidir."
+  },
+  "contactPage": {
+    "title": "İç Tasarımınız Hakkında Konuşalım",
+    "name": "İsim",
+    "surname": "Soyisim",
+    "phoneNumber": "Telefon Numarası",
+    "email": "E-posta"
   }
 }

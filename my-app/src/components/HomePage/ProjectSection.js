@@ -32,7 +32,7 @@ export default function TitlebarImageList() {
 
   return (
     <div className="flex justify-center py-24 bg-black">
-      <ImageList sx={{ width: "50%", height: "100%" }}>
+      <ImageList sx={{ width: { xs: "90%", md: "50%" }, height: "100%" }}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -50,7 +50,7 @@ export default function TitlebarImageList() {
                   aria-label={`info about ${item.title}`}
                   onClick={() => handleDialogOpen(item)}
                 >
-                  <InfoIcon  />
+                  <InfoIcon />
                 </IconButton>
               }
             />
@@ -82,7 +82,7 @@ export default function TitlebarImageList() {
               "&:hover": { bgcolor: "darkgray" },
             }}
           >
-            {t('global.close')}
+            {t("global.close")}
           </Button>
         </DialogActions>
       </Dialog>

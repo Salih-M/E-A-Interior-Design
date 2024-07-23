@@ -12,11 +12,18 @@ const DesignPage = ({
   subDescription,
   images,
   backgroundColor,
-  textColor
+  textColor,
 }) => {
   return (
-    <div className={`flex h-screen ${backgroundColor} ${textColor}`}>
-      <Box sx={{ width: "50%", padding: "140px" }}>
+    <div
+      className={`flex flex-col md:flex-row md:h-screen my-14 ${backgroundColor} ${textColor}`}
+    >
+      <Box
+        sx={{
+          width: { xs: "100%", md: "50%" },
+          padding: { xs: "20px", md: "140px" },
+        }}
+      >
         <ImageList variant="masonry" cols={3} gap={8}>
           {images.map((item, index) => (
             <ImageListItem key={index}>
@@ -26,19 +33,15 @@ const DesignPage = ({
                 alt={item.title}
                 loading="lazy"
               />
-              <ImageListItemBar
-               
-                position="below"
-                title={item.author}
-              />
+              <ImageListItemBar position="below" title={item.author} />
             </ImageListItem>
           ))}
         </ImageList>
       </Box>
       <Box
         sx={{
-          width: "50%",
-          padding: "90px",
+          width: { xs: "100%", md: "50%" },
+          padding: { xs: "20px", md: "90px" },
           display: "flex",
           flexDirection: "column",
         }}
@@ -50,7 +53,7 @@ const DesignPage = ({
           className="animate-slideIn"
           sx={{
             textAlign: "left",
-            marginTop: "40px",
+            marginTop: { xs: "20px", md: "40px" },
           }}
         >
           {title}
@@ -72,7 +75,7 @@ const DesignPage = ({
           gutterBottom
           sx={{
             textAlign: "left",
-            marginTop: "40px",
+            marginTop: { xs: "20px", md: "40px" },
           }}
         >
           {subtitle}

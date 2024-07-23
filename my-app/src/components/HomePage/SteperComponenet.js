@@ -5,7 +5,6 @@ import Img1 from "../../images/empty-space.webp";
 import Img2 from "../../images/unique-fireplace-1.jpg";
 import Img3 from "../../images/interior-design-scene-3d.jpg";
 
-
 const SteperComponent = () => {
   const { t } = useTranslation();
   const step = [
@@ -31,22 +30,23 @@ const SteperComponent = () => {
       link: "/detail/3",
     },
   ];
-  
+
   return (
     <Box
       sx={{
-        display: "flex",
+        display: { md: "flex" },
         justifyContent: "center",
         overflowX: "auto",
         padding: "20px",
         backgroundColor: "#f5f5f5",
+        marginY:"25px"
       }}
     >
       {step.map((step, index) => (
-        <Box key={index} sx={{ display: "flex", alignItems: "center" }}>
+        <Box key={index} sx={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop:"10px" }}>
           <Container
             sx={{
-              display: "flex",
+              display: "",
               flexDirection: "column",
               alignItems: "left",
               textAlign: "left",
@@ -110,9 +110,10 @@ const SteperComponent = () => {
                   p: "0",
                   color: "black",
                   "&:hover": { bgcolor: "secondary" },
+                  
                 }}
               >
-              {t('global.learnMore')}
+                {t("global.learnMore")}
               </Button>
             </Box>
           </Container>

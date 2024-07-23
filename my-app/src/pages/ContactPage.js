@@ -2,6 +2,7 @@ import WomenDesigner from "../images/woman-interior-designer_5.jpg";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next";
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required("Name is required"),
@@ -13,35 +14,40 @@ const validationSchema = Yup.object().shape({
 });
 
 const sendEmail = (e) => {
-    e.preventDefault();
-  
-    emailjs.sendForm(
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
       process.env.REACT_APP_EMAILJS_SERVICE_ID,
       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       e.target,
       process.env.REACT_APP_EMAILJS_USER_ID
     )
-    .then((result) => {
-      console.log(result.text);
-      alert('Email sent successfully!');
-    }, (error) => {
-      console.log(error.text);
-      alert('Failed to send email. Please try again.');
-    });
-  };
-  
+    .then(
+      (result) => {
+        console.log(result.text);
+        alert("Email sent successfully!");
+      },
+      (error) => {
+        console.log(error.text);
+        alert("Failed to send email. Please try again.");
+      }
+    );
+};
+
 export default function Home() {
+  const { t } = useTranslation();
   return (
-    <div className="flex justify-center items-center h-screen bg-customGray">
-      <div className="flex justify-between gap-8">
+    <div className="flex justify-center items-center h-screen bg-customGray mt-20">
+      <div className="md:flex justify-between gap-8">
         <div className="flex justify-center items-center">
           <img
-            className="h-96 w-96 rounded-full shadow-2xl"
+            className="h-64 md:h-96 w-64 md:w-96 mb-1 rounded-full shadow-2xl"
             src={WomenDesigner}
             alt="woman designer"
           />
         </div>
-        <div className="bg-white p-8 rounded shadow-lg">
+        <div className="bg-white my-6 p-8 rounded shadow-lg ">
           <Formik
             initialValues={{
               name: "",
@@ -59,13 +65,13 @@ export default function Home() {
               <Form onSubmit={sendEmail}>
                 <div className="my-4">
                   <p className="text-2xl">
-                    Let`s discuss on about you Interior Design
+                  <p>{t('contactPage.title')}</p>
                   </p>
                 </div>
                 <div className="flex gap-4">
                   <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-700">
-                      Name
+                     {t('contactPage.name')}
                     </label>
                     <Field
                       name="name"
@@ -80,7 +86,8 @@ export default function Home() {
                   </div>
                   <div className="mb-4">
                     <label htmlFor="surname" className="block text-gray-700">
-                      Surname
+                    {t('contactPage.surname')}
+
                     </label>
                     <Field
                       name="surname"
@@ -100,7 +107,7 @@ export default function Home() {
                       htmlFor="phoneNumber"
                       className="block text-gray-700"
                     >
-                      Phone Number
+                      {t('contactPage.phoneNumber')}
                     </label>
                     <Field
                       name="phoneNumber"
@@ -115,7 +122,7 @@ export default function Home() {
                   </div>
                   <div className="mb-4">
                     <label htmlFor="email" className="block text-gray-700">
-                      Email
+                    {t('contactPage.email')}
                     </label>
                     <Field
                       name="email"
@@ -133,7 +140,7 @@ export default function Home() {
                   type="submit"
                   className="bg-stone-600 text-white px-4 py-2 rounded hover:bg-stone-400"
                 >
-                  Submit
+                 {t('global.submit')}
                 </button>
               </Form>
             )}

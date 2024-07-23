@@ -4,10 +4,10 @@ import SteperComponent from "../components/HomePage/SteperComponenet";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <HeroSection />
       <ProjectSection />
       <SteperComponent />
-    </div>
+    </>
   );
 }

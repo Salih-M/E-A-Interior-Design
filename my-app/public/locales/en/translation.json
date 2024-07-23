@@ -2,7 +2,8 @@
   "global": {
     "getStarted": "Get Started",
     "learnMore": "Learn More",
-    "close": "Close"
+    "close": "Close",
+    "submit":"Submit"
   },
   "heroSection": {
     "title": "Welcome to the E | A interior design",
@@ -60,5 +61,12 @@
     "description": "Explore the sleek and stylish world of modern interior design. These contemporary spaces are designed to reflect sophistication, innovation, and a sense of refined elegance.",
     "subtitle": "Contemporary Elegance",
     "subDescription": "Modern house design embraces clean lines, open spaces, and a minimalistic approach to decor. It often features a neutral color palette accented with bold, vibrant colors or statement pieces. Materials like glass, metal, and concrete are commonly used to create a sleek and polished look. Modern design focuses on the functionality of space, ensuring each element serves a purpose while maintaining aesthetic appeal. Large windows and open floor plans allow for an abundance of natural light, making the spaces feel airy and expansive. The emphasis is on simplicity, uncluttered spaces, and the integration of technology, creating a harmonious blend of comfort and cutting-edge style. Ultimately, modern interior design is about creating a sophisticated and functional living environment that resonates with contemporary lifestyles."
+  },
+  "contactPage": {
+    "title":"Let`s discuss on about your Interior Design",
+    "name":"Name",
+    "surname":"Surname",
+    "phoneNumber":"Phone Number",
+    "email":"Email"
   }
 }
