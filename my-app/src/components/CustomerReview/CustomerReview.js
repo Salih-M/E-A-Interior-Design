@@ -2,7 +2,7 @@ import React from "react";
 import Avatar1 from "../../images/avatar_img.webp";
 import Avatar2 from "../../images/avatar_img_2.webp";
 import Avatar3 from "../../images/avatar_img_3.webp";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   Card,
   CardContent,
