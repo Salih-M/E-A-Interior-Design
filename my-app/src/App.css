@@ -47,8 +47,8 @@
 
 .slide-track {
   display: flex;
-  width: calc(100% * 3);
-  animation: slide 35s linear infinite;
+  width: calc(100% * 6);
+  animation: slide 40s linear infinite;
 }
 
 .paused {
