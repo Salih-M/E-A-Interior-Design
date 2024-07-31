@@ -38,7 +38,7 @@ const sendEmail = (e) => {
 export default function Home() {
   const { t } = useTranslation();
   return (
-    <div className="flex justify-center items-center h-screen bg-customGray mt-20">
+    <div className="flex justify-center items-center h-screen bg-customGray">
       <div className="md:flex justify-between gap-8">
         <div className="flex justify-center items-center">
           <img
@@ -65,13 +65,13 @@ export default function Home() {
               <Form onSubmit={sendEmail}>
                 <div className="my-4">
                   <p className="text-2xl">
-                  <p>{t('contactPage.title')}</p>
+                    <p>{t("contactPage.title")}</p>
                   </p>
                 </div>
                 <div className="flex gap-4">
                   <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-700">
-                     {t('contactPage.name')}
+                      {t("contactPage.name")}
                     </label>
                     <Field
                       name="name"
@@ -86,8 +86,7 @@ export default function Home() {
                   </div>
                   <div className="mb-4">
                     <label htmlFor="surname" className="block text-gray-700">
-                    {t('contactPage.surname')}
-
+                      {t("contactPage.surname")}
                     </label>
                     <Field
                       name="surname"
@@ -107,7 +106,7 @@ export default function Home() {
                       htmlFor="phoneNumber"
                       className="block text-gray-700"
                     >
-                      {t('contactPage.phoneNumber')}
+                      {t("contactPage.phoneNumber")}
                     </label>
                     <Field
                       name="phoneNumber"
@@ -122,7 +121,7 @@ export default function Home() {
                   </div>
                   <div className="mb-4">
                     <label htmlFor="email" className="block text-gray-700">
-                    {t('contactPage.email')}
+                      {t("contactPage.email")}
                     </label>
                     <Field
                       name="email"
@@ -140,7 +139,7 @@ export default function Home() {
                   type="submit"
                   className="bg-stone-600 text-white px-4 py-2 rounded hover:bg-stone-400"
                 >
-                 {t('global.submit')}
+                  {t("global.submit")}
                 </button>
               </Form>
             )}

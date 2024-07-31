@@ -28,11 +28,33 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translateX(-100%);
   }
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(100% * 3);
+  animation: slide 35s linear infinite;
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+.slide {
+  flex: 1 0 20%;
 }

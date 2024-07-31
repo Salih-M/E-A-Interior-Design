@@ -15,8 +15,6 @@ const HeroSection = () => {
         justifyContent: { xs: "", md: "space-between" },
         backgroundColor: "#f5f5f5",
         height: "100vh",
-        padding: "20px",
-        marginTop: "45px"
       }}
     >
       <Container maxWidth="sm" sx={{ textAlign: { xs: "center", md: "left" } }}>

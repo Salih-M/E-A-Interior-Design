@@ -47,8 +47,8 @@ const SteperDetail = () => {
 
   return (
     <>
-      <div className="md:grid md:grid-cols-2 md:p-24 gap-8 h-screen mt-20 p-8">
-        <div className="w-28 md:w-48 flex gap-4">
+      <div className="lg:grid lg:grid-cols-2 gap-8 mt-20 h-screen m-6 lg:m-20">
+        <div className="grid grid-cols-3 place-content-center gap-4">
           {detail.images.map((src, index) => (
             <img
               key={index}
@@ -60,7 +60,7 @@ const SteperDetail = () => {
           ))}
         </div>
         <div className="text-left md:grid place-content-center mt-4">
-          <p className="text-4xl mb-8 rounded-lg animate-slideIn">
+          <p className="lg:text-4xl text-2xl mb-8 rounded-lg animate-slideIn">
             {detail.title}
           </p>
           <p className="text-xl rounded-lg animate-slideIn ">

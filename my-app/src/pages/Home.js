@@ -1,6 +1,7 @@
 import HeroSection from "../components/HomePage/HeroSection";
 import ProjectSection from "../components/HomePage/ProjectSection";
 import SteperComponent from "../components/HomePage/SteperComponenet";
+import CustomerReview from "../components/CustomerReview/CustomerReview"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <ProjectSection />
       <SteperComponent />
+      <CustomerReview />
     </>
   );
 }
