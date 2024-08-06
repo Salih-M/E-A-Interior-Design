@@ -38,7 +38,7 @@ const sendEmail = (e) => {
 export default function Home() {
   const { t } = useTranslation();
   return (
-    <div className="flex justify-center items-center h-screen mt-16 bg-customGray">
+    <div className="flex justify-center items-center h-screen mt-16 md:mt-0 bg-customGray">
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex justify-center items-center">
           <img
