@@ -14,8 +14,9 @@ const HeroSection = () => {
         alignItems: "center",
         justifyContent: { xs: "", md: "space-between" },
         backgroundColor: "#f5f5f5",
-        height: "100vh",
-        marginTop:"65px"
+        height:  { xs: "70vh", md: "100vh" },
+        marginTop:"80px",
+        paddingX:"10px"
       }}
     >
       <Container maxWidth="sm" sx={{ textAlign: { xs: "center", md: "left" } }}>
@@ -45,9 +46,10 @@ const HeroSection = () => {
           width: { xs: "100%", md: "40%" },
           height: "auto",
           backgroundColor: "#f5f5f5",
-          mt: { xs: 3, md: 0 },
+          mt: { xs: 5, md: 0 },
           borderRadius: 3,
           boxShadow: 3,
+          margin:"50px"
         }}
         alt="Hero"
         src={ImgHero}

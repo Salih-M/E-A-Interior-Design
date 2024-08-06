@@ -43,12 +43,14 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+  justify-content: center; 
+  margin: 0 auto; 
 }
 
 .slide-track {
   display: flex;
-  width: calc(100% * 6);
-  animation: slide 40s linear infinite;
+  width: calc(100% * 3);
+  animation: slide 30s linear infinite;
 }
 
 .paused {
