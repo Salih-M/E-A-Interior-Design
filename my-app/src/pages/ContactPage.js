@@ -39,7 +39,7 @@ export default function Home() {
   const { t } = useTranslation();
   return (
     <div className="flex justify-center items-center h-screen bg-customGray">
-      <div className="md:flex justify-between gap-8">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex justify-center items-center">
           <img
             className="h-64 md:h-96 w-64 md:w-96 mb-1 rounded-full shadow-2xl"

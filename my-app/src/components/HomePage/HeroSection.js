@@ -14,7 +14,7 @@ const HeroSection = () => {
         alignItems: "center",
         justifyContent: { xs: "", md: "space-between" },
         backgroundColor: "#f5f5f5",
-        height:  { xs: "70vh", md: "100vh" },
+        height:  { xs: "90vh", md: "100vh" },
         marginTop:"80px",
         paddingX:"10px"
       }}
@@ -49,7 +49,6 @@ const HeroSection = () => {
           mt: { xs: 5, md: 0 },
           borderRadius: 3,
           boxShadow: 3,
-          margin:"50px"
         }}
         alt="Hero"
         src={ImgHero}

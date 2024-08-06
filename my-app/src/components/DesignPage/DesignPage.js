@@ -16,7 +16,7 @@ const DesignPage = ({
 }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row md:h-screen my-14 ${backgroundColor} ${textColor}`}
+      className={`flex flex-col md:flex-row md:h-screen p-6 my-14 overflow-hidden ${backgroundColor} ${textColor}`}
     >
       <Box
         sx={{
