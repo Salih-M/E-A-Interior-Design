@@ -5,9 +5,15 @@ import emailjs from "emailjs-com";
 import { useTranslation } from "react-i18next";
 
 const validationSchema = Yup.object().shape({
-  name: Yup.string().required("Name is required"),
-  surname: Yup.string().required("Surname is required"),
-  phoneNumber: Yup.string().required("Phone number is required"),
+  name: Yup.string()
+    .matches(/^[A-Za-z\s]+$/, "Name can only contain letters")
+    .required("Name is required"),
+  surname: Yup.string()
+    .matches(/^[A-Za-z\s]+$/, "Surname can only contain letters")
+    .required("Surname is required"),
+  phoneNumber: Yup.string()
+    .matches(/^\+?[0-9]+$/, "Phone number can only contain numbers and +")
+    .required("Phone number is required"),
   email: Yup.string()
     .email("Invalid email format")
     .required("Email is required"),
@@ -42,7 +48,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex justify-center items-center">
           <img
-            className="h-64 md:h-96 w-64 md:w-96 mb-1 rounded-full shadow-2xl"
+            className="h-60 md:h-96 w-64 md:w-96 mb-1 rounded-full shadow-2xl"
             src={WomenDesigner}
             alt="woman designer"
           />

@@ -11,7 +11,12 @@
   },
   "projectSection": {
     "location": "Location",
-    "price": "Price"
+    "externalInterior": "External interior design",
+    "material":"Materials",
+    "style":"Design Style",
+    "specialFutures":"Special Futures",
+    "description":"Description",
+    "completionDate":"Completion Date"
   },
   "steperSection": [
     {
